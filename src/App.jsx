@@ -8,7 +8,7 @@ import Campus from './components/campus/campus'
 import Testimonials from './components/testimonials/testimonials'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
-import Videoplayer from './components/videoplayer/videoplayer'
+import Videoplayer from "./components/videoPlayer/videoplayer";
 
 const App = () => {
 
