@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="CampusBridge bridge favicon">
+  <title>CampusBridge Bridge</title>
+  <rect width="64" height="64" fill="transparent"/>
+  <g fill="none" stroke="#212EA0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- arch (bolder) -->
+    <path d="M6 40 C18 16, 46 16, 58 40" />
+    <!-- pillars (bolder) -->
+    <line x1="14" y1="40" x2="14" y2="50" stroke-width="5" />
+    <line x1="32" y1="40" x2="32" y2="50" stroke-width="5" />
+    <line x1="50" y1="40" x2="50" y2="50" stroke-width="5" />
+    <!-- base line (slightly bolder) -->
+    <line x1="4" y1="50" x2="60" y2="50" stroke="#212EA0" stroke-width="3" />
+  </g>
+</svg>

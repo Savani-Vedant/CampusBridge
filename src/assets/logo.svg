@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-label="CampusBridge logo improved white">
+  <title>CampusBridge (white)</title>
+  <!-- simplified white mark + text for dark backgrounds -->
+  <g transform="translate(24,24)">
+    <rect x="0" y="0" width="152" height="152" rx="28" fill="#ffffff" opacity="0.06"/>
+    <path d="M28 92 C52 40, 100 40, 124 92" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+    <path d="M34 100 L34 72" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+    <path d="M66 100 L66 72" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+    <path d="M98 100 L98 72" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(210,100)">
+    <text x="0" y="-6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="#ffffff">Campus</text>
+    <text x="0" y="54" font-family="Inter, Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Bridge</text>
+  </g>
+</svg>
