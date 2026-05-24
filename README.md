@@ -2,6 +2,8 @@
 
 CampusBridge is a responsive landing page built with React and Vite for a modern education or university website. The project presents a clean single-page experience with smooth scrolling navigation, a hero section, program highlights, an about section, a campus gallery, testimonials, contact details, and a footer.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20CampusBridge-0f766e?style=for-the-badge)](https://campus-bridge-ivory.vercel.app/)
+
 ## What It Includes
 
 - A fixed navigation bar with smooth scrolling links between page sections
