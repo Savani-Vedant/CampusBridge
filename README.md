@@ -34,6 +34,14 @@ CampusBridge is a responsive landing page built with React and Vite for a modern
 
 ## Getting Started
 
+### Environment setup
+
+Copy [.env.example](/Users/vedantsavani/Desktop/Projects/GreatSoftware/CampusBridge/.env.example) to [.env](/Users/vedantsavani/Desktop/Projects/GreatSoftware/CampusBridge/.env) and add your own Web3Forms access key:
+
+```bash
+cp .env.example .env
+```
+
 ### Install dependencies
 
 ```bash

@@ -8,13 +8,20 @@ import white_arrow from '../../assets/white-arrow.png'
 
 const contact = () => {
     const [result, setResult] = React.useState("");
+    const accessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
 
   const onSubmit = async (event) => {
     event.preventDefault();
+
+    if (!accessKey) {
+      setResult("Missing Web3Forms access key. Add VITE_WEB3FORMS_ACCESS_KEY to your .env file.");
+      return;
+    }
+
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "d75f0b52-adc9-4f57-b20f-ed89a29072c3");
+    formData.append("access_key", accessKey);
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
