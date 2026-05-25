@@ -8,11 +8,14 @@
 .program{
     flex-basis: 31%;
     position: relative;
-}
-.program img{
-    width: 100%;
+    overflow: hidden;
     border-radius: 10px;
+}
+.program > img{
+    width: 100%;
     display: block;
+    height: 400px;
+    object-fit: cover;
 }
 .caption{
     border-radius: 10px;
@@ -34,6 +37,10 @@
 .caption img{
     width: 60px;
     margin-bottom: 10px;
+}
+.caption p{
+    margin: 0;
+    text-align: center;
 }
 .program:hover .caption{
     opacity: 1;
